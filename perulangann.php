@@ -1,9 +1,19 @@
 <?php
 
-$i = 1;
-do {
-    echo $i . "<br> ";
-    $i += 2;
-} while ($i <= 150);
+// Menggunakan For loop
+for ($a = 1; $a <= 20; $a++){
+    if ($a % 2 != 0){
+            echo $a . "<br>";
+    }
+}
 
+
+// Menggunakan while loop
+$b = 40;
+while ($b <= 80){
+    if ($b % 4 !=0){
+        echo $b . "<br>";
+    }
+    $b++;
+}
 
